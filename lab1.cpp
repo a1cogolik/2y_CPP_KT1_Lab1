@@ -540,7 +540,7 @@ int FindLast(int arr[], int x) {
   }
   return result;
 }
-//                    --- 4.4 ---
+// --- 4.4 ---
 int* Add(int arr[], int x, int pos) {
   int n = ArrayLength(arr);
 
@@ -560,7 +560,7 @@ int* Add(int arr[], int x, int pos) {
 
   return result;
 }
-//                    --- 4.6 ---
+// --- 4.6 ---
 void Reverse(int arr[]) {
   int n = ArrayLength(arr);
 
@@ -570,7 +570,7 @@ void Reverse(int arr[]) {
     arr[n - 1 - i] = temp;
   }
 }
-//                    --- 4.8 ---
+// --- 4.8 ---
 int* Concat(int arr1[], int arr2[]) {
   int n1 = ArrayLength(arr1);
   int n2 = ArrayLength(arr2);
@@ -585,7 +585,7 @@ int* Concat(int arr1[], int arr2[]) {
   result[n] = kSentinel;
   return result;
 }
-//                    --- 4.10 ---
+// --- 4.10 ---
 int* DeleteNegative(int arr[]) {
   int n = ArrayLength(arr);
 
