@@ -183,11 +183,11 @@ void RunTask(int choice) {
       break;
     }
     case 5: {
-      for (int i = 1; i < 6; ++i) {
+      int result = ReadInt("Введите первое число: ");
+      for (int i = 1; i <= 5; ++i) {
         std::cout << "--------------------------------- " << i << " из 5 ----------------------------------\n";
-        int a = ReadInt("Введите первое число: ");
         int b = ReadInt("Введите второе число: ");
-        int result = LastNumSum(a, b);
+        result = LastNumSum(result, b);
         std::cout << "Результат: " << result << "\n";
         if (i != 5) {
           Pause();
